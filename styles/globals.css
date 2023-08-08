@@ -1,0 +1,62 @@
+navbar-light .navbar-nav .nav-link {
+  color: #333;
+}
+
+
+.navbar-nav {
+  margin-left: 90px;
+}
+
+/* Logo and Text Style */
+.navbar-container a {
+  text-decoration: none;
+}
+
+.navbar-container img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Text Style */
+.navbar-container p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.map-container {
+  width: 60%;
+  height: 80vh;
+}
+
+.recorded-pins-container {
+  margin-left: 20px; /* Add some space between the map and the container */
+  flex: 1; /* Allow the container to take up available space */
+  max-width: 500px; /* Set a maximum width for the container */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f8f8f8;
+  overflow-y: auto; /* Add a vertical scrollbar if the content overflows */
+}
+
+/* Style for the recorded pins list */
+.recorded-pins-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recorded-pins-container li {
+  margin: 5px 0;
+}
+
+/* Custom styles for the export buttons */
+.export-buttons {
+  margin-top: 20px;
+}
+
+.export-buttons button {
+  margin-right: 10px; /* Add margin between the buttons */
+}
