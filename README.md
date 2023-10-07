@@ -1,4 +1,10 @@
-# Intersction-auto-app
+# Project Description
+An online platform that keeps track of bus stops, records intersection coordinates and automatically calculates distances and headings between bus stops. 
+
+# Tech Stack
+Frontend and Backend: Next.js
+Database: Prisma and MongoDB
+
 
 ![image](https://github.com/Frankbz/Intersction-auto-app/assets/98783358/f524d852-b8a4-46cc-844a-f5d89475cb41)
 
